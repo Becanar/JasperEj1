@@ -54,13 +54,16 @@
 				<text><![CDATA[Listado de naciones]]></text>
 			</staticText>
 			<image>
-				<reportElement x="452" y="0" width="161" height="115" uuid="5d64e5b3-07bb-48ab-89dc-15c0c46bb19a"/>
-				<imageExpression><![CDATA["coffee_stain.png"]]></imageExpression>
+				<reportElement x="0" y="0" width="100" height="100" uuid="xxxxxxx"/>
+				<imageExpression><![CDATA["/resources/coffee_stain.png"]]></imageExpression>
 			</image>
+
 			<image>
-				<reportElement x="1" y="0" width="160" height="126" uuid="dba428e9-d3a8-4a5f-b43a-5e857cebc060"/>
-				<imageExpression><![CDATA["C:/Users/www.laptoptekoop.nl/IdeaProjects/JasperEj1/src/main/resources/es/benatcano/jasperej1/img/naciones.png"]]></imageExpression>
+				<reportElement x="0" y="0" width="100" height="100" uuid="xxxxxxx"/>
+				<imageExpression><![CDATA[$P{ImagePath} + "/naciones.png"]]></imageExpression>
 			</image>
+
+
 			<staticText>
 				<reportElement x="160" y="97" width="298" height="30" uuid="1355a8ba-e0ae-4856-a852-19c9004e53e8"/>
 				<text><![CDATA[En el siguiente informe encontrarás un listado de países con información relevante de cada país: nº de habitantes y capital]]></text>
